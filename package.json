@@ -1,0 +1,22 @@
+{
+  "name": "roof.js",
+  "version": "0.0.8",
+  "description": "Just roof.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roofimon/roof.js.git"
+  },
+  "keywords": [
+    "roof"
+  ],
+  "author": "roofimon@gmail.com",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/roofimon/roof.js/issues"
+  },
+  "homepage": "https://github.com/roofimon/roof.js#readme"
+}
