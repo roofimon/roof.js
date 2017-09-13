@@ -4,6 +4,7 @@
   "description": "Just roof.js",
   "main": "index.js",
   "scripts": {
+    "start": "node roof.js",
     "test": "mocha"
   },
   "repository": {
