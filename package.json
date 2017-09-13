@@ -4,7 +4,8 @@
   "description": "Just roof.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node roof.js",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
