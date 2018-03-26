@@ -9,7 +9,7 @@ var Roof = {};
 
 Roof.say = function () {
   console.log.apply(console, Array.prototype.slice.call(arguments));
-}
+};
 
 Roof.doSomething = function () {
   'use strict';
