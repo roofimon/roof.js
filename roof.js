@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 var chalk = require('chalk');
 var clear = require('clear');
 var figlet = require('figlet');
@@ -8,7 +9,7 @@ var Roof = {};
 
 Roof.say = function () {
   console.log.apply(console, Array.prototype.slice.call(arguments));
-}
+};
 
 Roof.doSomething = function () {
   'use strict';
@@ -18,7 +19,9 @@ Roof.doSomething = function () {
 Roof.greetToPeople = function () {
   this.say(
     chalk.yellow(
-      figlet.textSync('ROOF.42', { horizontalLayout: 'full' })
+      figlet.textSync('ROOF.43', {
+        horizontalLayout: 'full'
+      })
     )
   );
 };
